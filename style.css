@@ -49,3 +49,8 @@ ul {
   width: 90px;
   border-radius: 8px;
 }
+
+.channel-list img {
+  border-radius: 50%;
+  width: 70px;
+}
