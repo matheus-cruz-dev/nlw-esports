@@ -128,11 +128,11 @@ main section {
 }
 
 main section:nth-child(1) {
-  animation-delay: 0;
+  animation-delay: 0.2;
 }
 
 main section:nth-child(2) {
-  animation-delay: 0.3s;
+  animation-delay: 0.4s;
 }
 
 main section:nth-child(3) {
@@ -142,7 +142,7 @@ main section:nth-child(3) {
 @keyframes fromTop {
   from {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(30px);
   }
 
   to {
