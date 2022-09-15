@@ -142,7 +142,7 @@ main section:nth-child(3) {
 @keyframes fromTop {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(-30px);
   }
 
   to {
