@@ -23,6 +23,7 @@ body * {
 
 header {
   margin-top: 32px;
+  height: calc(120px + 32px);
 }
 
 header div {
@@ -40,7 +41,7 @@ header div {
   display: flex;
   padding: 4px;
 
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 header div:hover {
@@ -98,7 +99,7 @@ section ul {
 }
 
 section ul li {
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 section ul li:hover {
@@ -113,5 +114,23 @@ section ul li:hover {
 .channel-list img {
   border-radius: 50%;
   width: 70px;
-  border: 1px solid #443E54;
+  border: 1px solid #443e54;
+}
+
+/* animation */
+
+header div {
+  animation: fromTop 0.7s 0.4s backwards;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
