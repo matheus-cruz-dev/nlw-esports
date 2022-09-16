@@ -7,7 +7,7 @@
 Projeto construido do evento Next Level Week da Rocketseat
 
 
-(Clique aqui para acessar)[https://matheus-cruz-dev.github.io/nlw-esports/]
+[🔗 Clique aqui para acessar](https://matheus-cruz-dev.github.io/nlw-esports/)
 
 ## 🚀 Tecnologias
 
